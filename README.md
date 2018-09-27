@@ -36,7 +36,7 @@ return promise.Future;
 
 Having fewer concepts makes the API easier to use, yet these basic concepts can be combined to implement most of what was removed from the `Task` API.
 
-### Future/Future<T> are structs
+### `Future`/`Future<T>` are structs
 In `Seer.Futures` there is no ValueTask/Task concept, `Future` is itself a struct and the mutable state is kept in a `Promise` private field. Like `ValueTask`, future does not need to allocate when an operation is completed synchronously.
 
 `Future` and `Future<T>` is emulating polymorphism with implicit and explicit cast operators, so this is possible:
