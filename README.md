@@ -1,4 +1,4 @@
-> Disclaimer: This library is in an experimental stage, use at your own risk.
+> Disclaimer: This library is in an experimental stage
 
 # Seer.Futures
 The purpose of `Seer.Futures` is to propose an alternative to `System.Threading.Tasks` based on Future/Promise.
