@@ -1,11 +1,11 @@
 ﻿namespace Seer.Futures
 {
-    public class AsyncStatic<T>
+    public class AsyncAwaitLocals<T>
     {
         
     }
 
-    public sealed class AsyncStaticContext
+    public sealed class AsyncAwaitContext
     {
 
     }
