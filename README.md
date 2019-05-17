@@ -25,7 +25,7 @@ return promise.Future;
 
 ```
 
-`Seer.Futures` is greatly inspired/copied from `System.Threading.Tasks`, it uses all the its tricks to acheive similar or sometime better performance.
+`Seer.Futures` is greatly inspired/copied from `System.Threading.Tasks`, it uses all its tricks to acheive similar or sometime better performance.
 
 ## Differences
 ### A leaner API
